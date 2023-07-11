@@ -1,0 +1,17 @@
+{
+  "name": "webarchiver",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Program.fs.js",
+  "scripts": {
+    "test": "mocha tests --require ignore-styles"
+  },
+  "type": "module",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "ignore-styles": "^5.0.1",
+    "mocha": "^10.2.0"
+  }
+}

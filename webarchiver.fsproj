@@ -1,0 +1,29 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="src\Node.fs" />
+    <Compile Include="src\URLEncoder.fs" />
+    <Compile Include="src\ApiClient.fs" />
+    <Compile Include="src\LinkExtractor.fs" />
+    <Compile Include="src\Wayback.fs" />
+    <Compile Include="src\Storage.fs" />
+    <Compile Include="src\LinksProcessor.fs" />
+    <Compile Include="src\StorageTests.fs" />
+    <Compile Include="src\URLEncoderTests.fs" />
+    <Compile Include="tests\Tests.fs" />
+    <Compile Include="Program.fs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Fable.Core" Version="4.0.0" />
+    <PackageReference Include="Fable.Fetch" Version="2.6.0" />
+    <PackageReference Include="Fable.Mocha" Version="2.16.0" />
+    <PackageReference Include="Fable.Node" Version="1.2.0" />
+  </ItemGroup>
+
+</Project>

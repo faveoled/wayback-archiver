@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+    </PropertyGroup>
+    <ItemGroup>
+        <Compile Include="Tests.fs" />
+    </ItemGroup>
+    <ItemGroup>
+        <ProjectReference Include="..\webarchiver.fsproj" />
+    </ItemGroup>
+    <ItemGroup>
+        <PackageReference Include="Fable.Mocha" Version="2.16.0" />
+    </ItemGroup>
+</Project>
